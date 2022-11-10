@@ -13,7 +13,7 @@ namespace Odd_EvenNumber
             int n = Convert.ToInt32(Console.ReadLine());
             if (n < 0)
             {
-                Console.WriteLine("Negative Number!");
+                Console.WriteLine("Negative Number");
             }
             else if (n == 0)
             {
@@ -21,7 +21,7 @@ namespace Odd_EvenNumber
             }
             else
             {
-                Console.WriteLine("Positive Number!");
+                Console.WriteLine("Positive Number");
             }
         }
     }
